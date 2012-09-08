@@ -15,7 +15,7 @@
 	width            : 950px;
 	margin           : 0 auto;
 	background-color : #efeff3;
-	font-family: Helvetica, arial, freesans, clean, sans-serif;
+	font-family      : Helvetica, arial, freesans, clean, sans-serif;
 }
 
 form#contact-from {
@@ -23,18 +23,32 @@ form#contact-from {
 	margin : 0 auto;
 }
 
-form#contact-from input.text{
-	display : block;
-	padding:8px;
-	width:140px;
-	border:2px solid #b2b2b2;
-	border-radius: 4px;
+form#contact-from h1{
+	font-size: 20px;
+	color:#363638;
+	margin:3px 0 5px 2px;
+}
+
+form#contact-from label{
+	color    :#333;
+	font-size: 17px;
+}
+
+form#contact-from input.text {
+	display      : block;
+	padding      : 10px;
+	width        : 220px;
+	border       : 2px solid #b2b2cc;
+	border-radius: 5px;
+	margin       : 5px 0 8px;
 
 }
 
-form#contact-from textarea#message{
-	display: block;
-	border:2px solid #b2b2b2;
-	border-radius: 4px;
+form#contact-from textarea#message {
+	width        :280px;
+	display      : block;
+	border       : 2px solid #b2b2b2;
+	border-radius: 5px;
+	margin       : 5px 0 8px;
 
 }
