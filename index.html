@@ -4,10 +4,21 @@
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="reset.css" />
 	<link rel="stylesheet" href="style.css" />
-
-	<title></title>
+	<title>Mail</title>
 </head>
 <body>
-	
+	<div class="container">
+		<form action="sendmail.php" id="contact-from" method="post">
+			<h1>Contact Me!</h1>
+			<label for="name">name</label>
+			<input class="text" type="text" name="name" id="name" placeholder="Your/company name" />
+			<label for="email">E-mail</label>
+			<input class="text" type="text" name="email" id="email" placeholder="Your/company email" />
+			<label for="message">Your Message!</label>
+			<textarea name="message" id="message" cols="30" rows="10" placeholder="Share What's In Your Mind!"></textarea>
+			<input type="reset" />
+			<input type="submit">
+		</form>
+	</div>
 </body>
 </html>

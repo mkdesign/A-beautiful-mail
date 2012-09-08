@@ -1,0 +1,40 @@
+.clear {
+	clear      : both;
+	width      : 0 !important;
+	height     : 0 !important;
+	min-height : 0 !important;
+	min-width  : 0 !important;
+	overflow   : hidden;
+	float      : none !important;
+	border     : 0 none !important;
+	margin     : 0 !important;
+	padding    : 0 !important;
+}
+
+.container {
+	width            : 950px;
+	margin           : 0 auto;
+	background-color : #efeff3;
+	font-family: Helvetica, arial, freesans, clean, sans-serif;
+}
+
+form#contact-from {
+	width  : 600px;
+	margin : 0 auto;
+}
+
+form#contact-from input.text{
+	display : block;
+	padding:8px;
+	width:140px;
+	border:2px solid #b2b2b2;
+	border-radius: 4px;
+
+}
+
+form#contact-from textarea#message{
+	display: block;
+	border:2px solid #b2b2b2;
+	border-radius: 4px;
+
+}
